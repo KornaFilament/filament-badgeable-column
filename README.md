@@ -112,7 +112,7 @@ use Awcodes\FilamentBadgeableColumn\Components\BadgeableColumn;
 return $table
     ->columns([
         BadgeableColumn::make('name')
-            ->seperator(':')
+            ->separator(':')
     ]);
 ```
 
